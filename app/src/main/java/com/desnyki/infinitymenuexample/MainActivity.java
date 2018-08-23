@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 childScrollView.addView(childContainer[0], 0, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-                childScrollView.openWithAnim(bar1,true,false);
+                childScrollView.openWithAnim(bar1,false,true);
             }
         });
         bar2 = (RelativeLayout) findViewById(R.id.bar2);
